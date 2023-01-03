@@ -6,11 +6,12 @@
 
 /* Header */
 .header {
-    background: url(img/background.png) 100% no-repeat;
-    background-size: auto;
-    display: flex;
-    flex-direction: column;
+  background: url(img/background.png) 100% no-repeat;
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
 }
+
 .nav1 {
   display: flex;
   width: 100%;
@@ -36,7 +37,7 @@
   margin: 0;
   padding: 0;
   width: 90%;
-  font-size:137%;
+  font-size: 137%;
 }
 
 .description {
@@ -48,7 +49,7 @@
   font-weight: bold;
   text-align: justify;
   padding: 4%;
-  border: 4px solid white; 
+  border: 4px solid white;
 }
 
 .date {
@@ -62,7 +63,6 @@
 }
 
 .place {
-
   font-family: 'Lato', sans-serif;
   color: #868686;
   width: 90%;
@@ -80,13 +80,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(img/background_program.png) 100% no-repeat; 
+  background: url(img/background_program.png) 100% no-repeat;
 }
 
 .h2_mProg {
   color: white;
   font-family: 'Lato', sans-serif;
-  font-weight: lighter;
+  font-weight: 700;
   font-size: 120%;
   margin-bottom: 2%;
 }
@@ -98,18 +98,16 @@
   align-items: center;
   padding-top: 10%;
   padding-bottom: 10%;
-  }
+}
 
 .lProgram {
   margin: 0.5%;
   padding: 0;
-  width:auto;
   display: flex;
   background: rgba(255, 255, 255, 0.1);
-  justify-content:  space-around;
+  justify-content: space-around;
   align-items: center;
   width: 95%;
-
 }
 
 .lProgram h3 {
@@ -123,13 +121,13 @@
   color: white;
   font-family: 'Lato', sans-serif;
   font-size: 70%;
+  letter-spacing: 0.06em;
 }
 
 .join {
   all: unset;
   background: #ef513c;
   width: 30%;
-
   margin-bottom: 10%;
 }
 
@@ -142,3 +140,65 @@
 }
 
 /* Featured speakers */
+
+.fSpeakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h2fs {
+  margin-top: 7%;
+  margin-bottom: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.underline {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.speaker {
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+}
+
+.speakerDet {
+  width: 60%;
+  display: flex;
+  margin-left: 6%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.speakerPh {
+  height: auto;
+  width: 40%;
+}
+
+.speakerDet h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  margin-top: 9%;
+  margin-bottom: 0;
+}
+
+.speakerRanking {
+  font-family: 'Lato', sans-serif;
+  color: #ef513c;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 70%;
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+
+.speakerWork {
+  font-family: 'Lato', sans-serif;
+  margin-top: 4%;
+  font-size: 70%;
+}
