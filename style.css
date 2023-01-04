@@ -8,6 +8,8 @@
 .header {
   background: url(img/background.png) 100% no-repeat;
   background-size: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav1 {
