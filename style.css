@@ -202,3 +202,238 @@
   margin-top: 4%;
   font-size: 70%;
 }
+
+.partners {
+  display: none;
+}
+
+.footer {
+  display: none;
+}
+
+/* Desktop version width > 768*/
+
+@media only screen and (min-width: 768px) {
+
+  /* Header desktop*/
+
+  .header {
+    background: url(img/desktop_opacity.png) 100% no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav1 {
+  }
+
+  .about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hello {
+    width: 60%;
+    margin-left: 15%;
+    background: url(img/desktop_background.jpg) 100% no-repeat;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: lighter;
+    font-size: 120%;
+    text-align: left;
+  }
+
+  .title {
+    width: 65%;
+    margin-left: 15%;
+    background: url(img/desktop_background.jpg) 100% no-repeat;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 300%;
+    text-align: left;
+  }
+
+  .description {
+    font-family: 'Lato', sans-serif;
+    color: #515151;
+    width: 45%;
+    height: auto;
+    margin-left: 15%;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: justify;
+    padding: 2%;
+    border: 4px solid white;
+  }
+
+  .date {
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #515151;
+    margin: 2%;
+    width: 100%;
+    height: auto;
+    font-size: 170%;
+    text-align: justify;
+    margin-left: 15%;
+    margin-bottom: 0;
+  }
+
+  .place {
+    font-family: 'Lato', sans-serif;
+    color: #868686;
+    width: 90%;
+    height: auto;
+    font-size: 120%;
+    font-weight: bold;
+    margin: 2%;
+    margin-bottom: 10%;
+    margin-top: 0;
+    text-align: justify;
+    margin-left: 15%;
+  }
+
+  /* Main Program desktop > 768px */
+
+  .mProgram {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+
+  .mProgram ul {
+    all: unset;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lProgram {
+    margin: 0.3%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+    justify-content:space-around;
+    align-items: center;
+    width: 40%;
+    height: 180px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    padding: 1%;
+  }
+
+  .lProgram h3 {
+    color: #ef513c;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lProgram p {
+    width: 100%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 65%;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+
+  .join {
+    all: unset;
+    background: #ef513c;
+    width: 30%;
+    margin-bottom: 3%;
+  }
+
+/* Featured speakers desktop > 768px */
+
+.fSpeakers {
+  width: 75%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+  margin: auto;
+}
+
+/* Partners desktop > 768px*/
+
+.h2about {
+  width: 80%;
+  font-family: 'lato', sans-serif;
+  color: #333;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.partners {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #333;
+  height: auto;
+  margin-top: 6%;
+}
+
+.partners h2 {
+  color: whitesmoke;
+}
+
+.partners ul {
+  all: unset;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.partnLogo {
+  all: unset;
+  width: auto;
+  height: auto;
+  margin: 5%;
+}
+
+/* Footer desktop > 768px */
+
+.pAbout {
+  font-family: 'Lato', sans-serif;
+  color: #868686;
+  width: 50%;
+  height: auto;
+  font-size: 90%;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+.footer {
+  margin: 0;
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer img {
+  width: 40%;
+  height: auto;
+}
+
+}
+
+
