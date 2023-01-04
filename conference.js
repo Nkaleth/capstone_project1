@@ -33,7 +33,7 @@ const speakers = {
     name: 'Ryan Merkley',
     photo: 'img/speaker_06.svg',
     ranking: 'CEO of Creativve Commons, ex COO of the Mozilla Foundation',
-    works: 'Ryan had been leading open-source projects at the Mozilla Foundation such as the open-source move-ment',
+    works: 'Ryan had been leading open-source projects at the Mozilla Foundation such as the open-source move-ment.',
   },
 };
 
