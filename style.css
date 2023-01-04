@@ -410,6 +410,7 @@
 /* Footer desktop > 768px */
 
 .pAbout {
+  display: flex;
   font-family: 'Lato', sans-serif;
   color: #868686;
   width: 50%;
@@ -417,20 +418,22 @@
   font-size: 90%;
   font-weight: bold;
   margin: 0;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
   margin: 0;
   margin-top: 5%;
+  margin-bottom: 5%;
   width: 100%;
-  height: auto;
+  height: 100px;
   display: flex;
   justify-content: center;
 }
 
 .footer img {
-  width: 40%;
+  width: auto;
   height: auto;
 }
 
