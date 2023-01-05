@@ -1,24 +1,27 @@
-/* Creating Mobile Menu JS only*/
+/* Creating Mobile Menu JS only */
 
 document.addEventListener('DOMContentLoaded', () => {
 
-/*let navMobile = document.createElement('nav');
+  /* let navMobile = document.createElement('nav');
 navMobile.className = "navMobile";
 navMobile.innerHTML = '<p>CreateElement example</p>';
 
 let body = document.querySelector('body');
 
-body.appendChild(navMobile);*/
+body.appendChild(navMobile); */
 
 });
 
-function closeMobile(){
-    var Mobile = document.querySelector('.mobileMenu');
+function closeMobile() {
+  const Mobile = document.querySelector('.mobileMenu');
 
-    Mobile.style.display = 'none';
+  Mobile.style.display = 'none';
 }
 
-function openMobile(){
-    var Mobile = document.querySelector('.mobileMenu');
-    Mobile.style.display = 'flex';
+function openMobile() {
+  const Mobile = document.querySelector('.mobileMenu');
+  Mobile.style.display = 'flex';
 }
+
+closeMobile();
+openMobile();
