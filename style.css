@@ -115,7 +115,7 @@
 }
 
 .lProgram h3 {
-  color: #ef513c;
+  color: #ec5242;
   font-family: 'Lato', sans-serif;
   font-size: 90%;
 }
@@ -130,7 +130,7 @@
 
 .join {
   all: unset;
-  background: #ef513c;
+  background: #ec5242;
   width: 30%;
   margin-bottom: 10%;
 }
@@ -193,7 +193,7 @@
 
 .speakerRanking {
   font-family: 'Lato', sans-serif;
-  color: #ef513c;
+  color: #ec5242;
   font-style: italic;
   font-weight: 700;
   font-size: 70%;
@@ -307,7 +307,7 @@
   }
 
   .linkDeskt a:hover{
-    color: #ef513c;
+    color: #ec5242;
   }
 
 /* ************* */
@@ -416,7 +416,7 @@
   }
 
   .lProgram h3 {
-    color: #ef513c;
+    color: #ec5242;
     font-family: 'Lato', sans-serif;
     font-size: 100%;
     padding: 0;
@@ -434,7 +434,7 @@
 
   .join {
     all: unset;
-    background: #ef513c;
+    background: #ec5242;
     width: 30%;
     margin-bottom: 3%;
   }
@@ -455,7 +455,7 @@
 .h2about {
   width: 80%;
   font-family: 'lato', sans-serif;
-  color: #333;
+  color: #d3d3d3;
   text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
