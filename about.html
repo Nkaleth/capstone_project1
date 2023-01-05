@@ -4,13 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./mobileMenu.js"></script>
   <link rel="stylesheet" href="./about.css">
+  <link rel="stylesheet" href="./mobileMenu.css">
   <title>About E3 2023</title>
 </head>
 <body class="body">
 
+  <div class="mobileMenu">
+    <img class="logoMenu" src="/img/logo.png" alt="">
+    <a href="#" onclick="closeMobile()" class="btMob"><img class="buttonX" src="img/close_button.png" alt="CloseMenu"></a>
+    <div>
+      <a href="/index.html">Home</a>
+      <a href="#program">Program</a>
+      <a href="#join">Join</a>
+      <a href="#news">News</a>
+      <a href="#campaign">E3 Campaign</a>
+    </div>
+  </div>
+
+
   <header class="header">
-    <nav class="nav1"><img src="img/hambuger.svg" alt="menu"></nav>
+    <nav class="nav1"><img onclick="openMobile()" src="img/hambuger.svg" alt="menu"></nav>
     
     <nav class="navDesktop">
       <section class="social_login">
@@ -25,7 +40,7 @@
       <section class="navLinks">
         <a href="/index.html"><img src="img/logo.png" alt="logoE3"></a>
         <div class="linkDeskt">
-          <a href="/about.html">About</a>
+          <a href="/index.html">Home</a>
           <a href="#">Program</a>
           <a href="#">Join</a>
           <a href="#">Sponsor</a>
