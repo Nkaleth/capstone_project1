@@ -50,7 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming soon 😃
+- [Enjoy](https://nkaleth.github.io/capstone_project1/) 😃 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +116,7 @@ If you like this project follow me 🙌 to know more about me and my future proj
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Cindy Shin, the original creator of the design.
+I would like to thank [@Cindy Shin,](https://www.behance.net/adagio07) the original creator of the design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
