@@ -50,7 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Enjoy](https://nkaleth.github.io/capstone_project1/) 😃 
+- [Live Demo Link](https://nkaleth.github.io/capstone_project1/) 😃 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
